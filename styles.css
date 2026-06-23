@@ -1,1 +1,22 @@
 /* your code */
+body {
+  padding: 25px;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+}
+
+
+th, td {
+  border: 1px solid #d9e2ec;
+  padding: 12px;
+  text-align: center;
+}
+
+thead {
+  background: #5C6AC4;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background: #f8faff;
+}
